@@ -26,6 +26,7 @@ public class Application {
         // waiting for user input
         while (!input.equals("exit")) {
             printService.printCountryInfo(input);
+            System.out.println();
             System.out.println("enter country name:");
             input = scanner.next();
         }
